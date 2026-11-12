@@ -1,0 +1,13 @@
+$kind: http-request
+url: https://localhost:53026/api/productos/3
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\":\"Monitor de 32'\",\r
+
+    \    \"precio\":950000\r
+
+    }"
+order: 3000

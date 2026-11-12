@@ -1,0 +1,14 @@
+$kind: http-request
+name: Crear producto
+url: https://localhost:53026/api/productos/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\":\"Memoria Ram 6GB\",\r
+
+    \    \"precio\":75000\r
+
+    }"
+order: 1000
